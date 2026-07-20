@@ -1,0 +1,7 @@
+file = open("student.txt", "a")
+
+file.write("Python file handling becomes simple with practice.\n")
+
+file.close()
+
+print("Line added successfully.")
