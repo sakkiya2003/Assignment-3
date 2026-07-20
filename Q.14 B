@@ -1,3 +1,6 @@
 file = open("student.txt", "r")
-print(file.read())
+
+for i, line in enumerate(file, start=1):
+    print(f"Line {i}: {line.strip()}")
+
 file.close()
